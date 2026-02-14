@@ -27,6 +27,7 @@ export default function Contact() {
             href="https://linkedin.com/in/bintang-mesir"
             target="_blank"
             rel="noopener noreferrer"
+            className="hover:underline"
           >
             linkedin.com/in/bintang-mesir
           </a>
