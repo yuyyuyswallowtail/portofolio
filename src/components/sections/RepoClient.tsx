@@ -51,10 +51,19 @@ export default function RepoClient({ repos = [] }: RepoClientProps) {
           >
             <CardContent className="space-y-4">
               <h4 className="font-semibold text-lg">{repo.name}</h4>
+              {repo.homepage ? (
+                <a
+                  href={repo.homepage}
+                  target="_blank"
+                  className="text-primary text-sm hover:underline"
+                >
+                  &#128279; {repo.homepage}
+                </a>
+              ) : null}
               <p className="text-sm text-muted-foreground">
                 {repo.description || "No description provided."}
               </p>
-              <div className="flex justify-between items-center pt-4">
+              <div className="flex justify-between items-center py-2">
                 {repo.language && (
                   <Badge variant="secondary">{repo.language}</Badge>
                 )}

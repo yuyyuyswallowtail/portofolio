@@ -21,8 +21,8 @@ export default function Navbar() {
     return null;
   }
   return (
-    <header className="fixed top-0 w-full z-50 backdrop-blur bg-background/80">
-      <div className="container mx-auto flex items-center justify-between h-16 px-4 border-b-2 border-foreground">
+    <header className="fixed top-0 w-full z-50 backdrop-blur bg-background/80 border-primary border-b-2">
+      <div className="container mx-auto flex items-center justify-between h-16 px-4 border-foreground">
         <Sidebar />
 
         <h1 className="font-bold text-lg tracking-wide">

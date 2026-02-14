@@ -1,10 +1,15 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Badge } from "@/components/ui/badge";
 
 export default function Experience() {
   const experiences = [
+    {
+      title: "Training Certificate VSGA - Digitalent",
+      date: "08/2022 - 12/2022",
+      description:
+        "Collaborated in building responsive web applications using PHP",
+    },
     {
       title: "BNSP Software Engineering Certification",
       date: "06/2023 - 06/2026",
