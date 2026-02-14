@@ -13,20 +13,12 @@ export default function Projects() {
   useEffect(() => {
     const fetchRepos = async () => {
       try {
-        const res = await fetch(
-          `https://api.github.com/users/${process.env.NEXT_PUBLIC_GITHUB_USERNAME}/repos?sort=updated`,
-          {
-            headers: {
-              Authorization: `Bearer ${process.env.NEXT_PUBLIC_GITHUB_TOKEN}`,
-            },
-            next: { revalidate: 3600 },
-          },
-        );
+        const res = await fetch("/api/github/repos");
         const data: Repo[] = await res.json();
         setRepos(data);
-        setLoading(false);
       } catch (err) {
         console.error("Failed to fetch repos", err);
+      } finally {
         setLoading(false);
       }
     };
