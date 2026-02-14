@@ -19,9 +19,18 @@ export default function Contact() {
         <h2 className="text-3xl md:text-4xl font-bold mb-6">
           {"Let's"} Work Together
         </h2>
-        <p className="text-muted-foreground">bintangmsr@gmail.com</p>
-        <p className="text-muted-foreground">+62 823 2197 3545</p>
-        <p className="text-muted-foreground">linkedin.com/in/bintang-mesir</p>
+        <p className="text-muted-foreground">Email: bintangmsr@gmail.com</p>
+        <p className="text-muted-foreground">Phone: +62 823 2197 3545</p>
+        <p className="text-muted-foreground">
+          LinkedIn:{" "}
+          <a
+            href="https://linkedin.com/in/bintang-mesir"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            linkedin.com/in/bintang-mesir
+          </a>
+        </p>
         <Button asChild>
           <a href="/cv.pdf" download>
             Download CV
