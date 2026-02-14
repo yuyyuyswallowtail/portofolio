@@ -13,7 +13,7 @@ export default function Projects() {
   useEffect(() => {
     const fetchRepos = async () => {
       try {
-        const res = await fetch("/api/github/repos");
+        const res = await fetch("/api/github/repos", { cache: 'no-store' });
         const data: Repo[] = await res.json();
         setRepos(data);
       } catch (err) {
