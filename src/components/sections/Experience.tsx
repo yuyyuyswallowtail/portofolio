@@ -6,7 +6,7 @@ export default function Experience() {
   const experiences = [
     {
       title: "Training Certificate VSGA - Digitalent",
-      date: "08/2022 - 12/2022",
+      date: "09/2023 - 10/2023",
       description:
         "Collaborated in building responsive web applications using PHP",
     },
