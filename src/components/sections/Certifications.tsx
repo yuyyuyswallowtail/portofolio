@@ -14,6 +14,10 @@ export default function Certifications() {
       img: "/certificates/hacktiv8.jpg",
     },
     {
+      title: "Independent Study Program - Hacktiv8",
+      img: "/certificates/hacktiv8-2.jpg",
+    },
+    {
       title: "Independent Study Program - Ruangguru",
       img: "/certificates/ruangguru.jpg",
     },
