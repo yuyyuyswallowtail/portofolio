@@ -5,6 +5,18 @@ import { motion } from "framer-motion";
 export default function Experience() {
   const experiences = [
     {
+      title: "Junior WEB Developer - PT. Emco Digital Indonesia",
+      date: "04/2026 - 06/2026",
+      description:
+        "Maintenance and addition of digitalindo logistics cargo system features with ticketing system using PHP, JQuery, MySQL, React and Node programs. JS.",
+    },
+    {
+      title: "Independent Study Program - Hacktiv8",
+      date: "08/2023 - 12/2023",
+      description:
+        "Collaborated in building responsive web applications using React.js and Tailwind CSS.",
+    },
+    {
       title: "Training Certificate VSGA - Digitalent",
       date: "09/2023 - 10/2023",
       description:
