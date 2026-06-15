@@ -6,6 +6,21 @@ import Image from "next/image";
 export default function Certifications() {
   const certs = [
     {
+      title:
+        "Training Certificate Programming Fundamental - Nasional (Digital Talent Academy)",
+      img: "/certificates/DTA-3.jpg",
+    },
+    {
+      title:
+        "Training Certificate Intermediate Assistant Web Developer - Nasional (Digital Talent Academy)",
+      img: "/certificates/DTA-2.jpg",
+    },
+    {
+      title:
+        "Training Certificate Fundamental of Assistant Web Developer - Nasional (Digital Talent Academy)",
+      img: "/certificates/DTA-1.jpg",
+    },
+    {
       title: "Training Certificate Vocational School Graduaye Academy (VSGA)",
       img: "/certificates/vsga.jpg",
     },
