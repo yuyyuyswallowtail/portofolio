@@ -21,7 +21,7 @@ export default function Certifications() {
       img: "/certificates/DTA-1.jpg",
     },
     {
-      title: "Training Certificate Vocational School Graduaye Academy (VSGA)",
+      title: "Training Certificate Vocational School Graduate Academy (VSGA)",
       img: "/certificates/vsga.jpg",
     },
     {
