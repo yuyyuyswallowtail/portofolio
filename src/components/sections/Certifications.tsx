@@ -7,6 +7,11 @@ export default function Certifications() {
   const certs = [
     {
       title:
+        "Training Certificate Full-Stack Development - Nasional (Digital Talent Academy)",
+      img: "/certificates/DTA-5.jpg",
+    },
+    {
+      title:
         "Training Certificate Front-End & Back-End Developmen Fundamental - Nasional (Digital Talent Academy)",
       img: "/certificates/DTA-4.jpg",
     },

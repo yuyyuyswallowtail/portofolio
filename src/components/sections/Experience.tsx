@@ -11,7 +11,7 @@ export default function Experience() {
         "Maintenance and addition of digitalindo logistics cargo system features with ticketing system using PHP, JQuery, MySQL, React and Node programs. JS.",
     },
     {
-      title: "Training Certificat Talenta Digital (Digital Talent Academy)",
+      title: "Training Certificate Talenta Digital (Digital Talent Academy)",
       date: "03/2026 - 12/2026",
       description:
         "Collaborated in building responsive web applications using PHP",
